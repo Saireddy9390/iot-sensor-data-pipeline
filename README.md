@@ -5,9 +5,9 @@
 This repository contains a Jupyter Notebook (`process_sensor_data.ipynb`) that processes raw, continuous IoT sensor data streams. It reads a messy sample dataset, cleans the data based on specific rules, and outputs a structured CSV ready for analysis.
 
 ## Repository Structure
-* `raw_sensor_data.csv`: The initial messy sample dataset containing errors.
+* `raw_sensor_data.xls`: The initial messy sample dataset containing errors.
 * `process_sensor_data.ipynb`: The main Jupyter Notebook containing the data ingestion and transformation pipeline, along with execution logs.
-* `cleaned_sensor_data.csv`: The final, clean dataset outputted by the pipeline.
+* `cleaned_sensor_data.xls`: The final, clean dataset outputted by the pipeline.
 * `README.md`: Project documentation.
 
 ## Processing Steps
@@ -21,6 +21,6 @@ When the notebook is executed, it applies the following data transformation rule
 ## How to Run
 1. Ensure you have Python installed along with the `pandas` and `jupyter` libraries.
 2. Open `process_sensor_data.ipynb` in your Jupyter environment.
-3. Ensure `raw_sensor_data.csv` is in the exact same directory.
+3. Ensure `raw_sensor_data.xls` is in the exact same directory.
 4. Run the cells to execute the script. Watch the log output to track the cleaning process.
-5. Open the newly generated `cleaned_sensor_data.csv` to view the results.
+5. Open the newly generated `cleaned_sensor_data.xls` to view the results.
